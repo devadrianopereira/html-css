@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgba(127, 255, 212, 0.418);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#pratica{
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(107, 5, 81);
+    color: white;
+}
+
+.pratica01e03{
+    text-align: center;
+    background-color: blueviolet;
+    color: rgb(129, 255, 3);
+}
+.pratica02e04{ text-align: center;
+    background-color: blue;
+    color: white;
+}
+.trecho{
+    color: orangered;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+p#paragrafo1{
+
+    color: red;
+    
+}
+
+
+
+
+div{
+    
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+#div01:hover{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#div01:active{
+    background-color: red;
+   
+}
+
+#div01 > p:hover{
+    display: none;
+}
+
+#div01 > p:active{
+
+    display: block;
+    background-color: rgb(8, 8, 8);
+
+}
+
+
+
