@@ -14,8 +14,8 @@ body{
 
 
 header{
-    background-color: rgb(7, 7, 7);
-    color: white;
+    background-image: linear-gradient(to top, rgba(44, 43, 43, 0.849), rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
     text-align: center;
    padding: 10px;
        
@@ -24,6 +24,7 @@ header{
 header > h1 {
        color: white;
        font-size: 40px;
+       
 
 }
 
@@ -37,8 +38,7 @@ header > p {
 nav{
     text-align: center;
     padding: 20px;
-    background-color: rgb(7, 7, 7);
-    
+    background-image: linear-gradient(to bottom, rgba(44, 43, 43, 0.849), rgb(0, 0, 0));
 }
 a{  
     font-weight: bolder;
@@ -74,7 +74,8 @@ main p {
 
 main h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 36px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.192);
 }
 
 div{
