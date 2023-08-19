@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+:root{
+    --fonte-padrao: 'sans serif';
+    --fonte-cursiva: cursive;
+    --cor1: rgb(139, 0, 0);
+}
+
+
+h1{
+    font-family: var(--fonte-cursiva);
+    color: var(--cor1);
+}
+
+
+div{
+    position: relative;
+    padding-bottom: 57%;
+    padding: 20px;
+    margin: 0px -20px 30px -20px;
+}
+
+div > video{
+   top: 5%;
+   left: 5%;
+   width: 55%;
+   height: 55%;
+}
+
