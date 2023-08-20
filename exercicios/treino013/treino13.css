@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'apple';
+    src: url('Apple\ Pie.ttf')format('truetype')
+}
+
+:root{
+    --fonte-nova:'apple';
+    --fonte-padrao:Arial, sans serif;
+
+}
+
+body {
+    background-image: url('imagens/wallpaper004.jpg');
+    font-family: var(--fonte-padrao);   
+    text-align: center;
+    max-width: 1000px;
+    min-width: 200px;
+}
+
+
+
+header h1{
+    font-family: var(--fonte-nova);
+    font-size: 55px;
+    font-weight: lighter;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.589);
+}
+
+header p {
+    text-indent: 30px;
+    line-height: 46px;
+    line-break: normal;
+    font-size: 18px;
+}
+
+
+nav{
+    background-image: linear-gradient(to bottom , rgb(102, 100, 100) , rgba(0, 0, 0, 0.904));
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+
+nav a{
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding:11px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 7px;
+    
+    
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+main h2{
+    font-family: var(--fonte-padrao);
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 60px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
+}
+
+main p {
+    padding-top: 20px;
+    text-indent: 30px;
+    line-height: 46px;
+    line-break: normal;
+    font-size: 18px;
+}
+
+aside {
+    background-image: linear-gradient(to top , rgb(218, 212, 212) , rgba(0, 0, 0, 0.904));
+    border-radius: 10px;
+
+}
+aside h3 {
+    padding-top: 20px;
+    color: wheat;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+
+    
+   aside a{
+    max-width: 200px;
+   } 
+
+
+aside ul {
+  
+    padding-bottom: 30px;
+    list-style-position: inside;
+    columns: 1;
+    
+}
+
+
