@@ -1,103 +1,130 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
-    
-}
+
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+ :root{
+    --fontegogle: 'Noto Sans', sans-serif;
+ }
 
 body{
-    margin: auto;
-    min-width: 200px;
-    max-width: 800px;
-    text-align: center;
+    min-width: 100px;
+    
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image:url(../imagens/vecteezy_glowing-rays-rising-light-orange-background_21684066-1280.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: linear-gradient(to top, #09a9e3ad ,#0afd73a4);
 }
-
 
 header {
-    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom , #0a76f2a8 , #02fafa93);
+
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 37px;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 2px 2px 2px black;
     
+}
+
+header p {
+    font-family: 'Noto Sans';
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+nav {
+        text-align: center;
+    margin: ;
     padding: 20px;
+    background-image: linear-gradient(to top, #0A76F2, #02FAFA);
+}
+nav a {
     
-}
-header h1{
-    color: white;
-    margin-bottom: 40px;
-}
-
-nav{
-    margin-bottom: 20px;
-}
-
-nav a{
-
-    color: black;
-    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
-    margin: 10px;
+    text-decoration: none;
     background-color: white;
-    border-radius: 30px;
-    padding: 10px;
+    padding: 9px;
+    border-radius: 5px;
+    margin: 7px;
     
 }
+
 nav a:hover{
-    background-color: rgb(223, 5, 5);
+    background-image: linear-gradient(to top, #000000, #191b1de3);
     color: white;
+    text-decoration: underline;
 }
+
 
 main{
-    background-color: ;
+
+    background-color: white;
+    min-width: 100px;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+ 
+.g {
+    width: 95%;
 }
 
+main h2{
+    padding: 20px;
+    font-size: 30px;
+    font-family:var(--fontegogle) ;
+    text-shadow: 1px 1px 1px black;
+}
 
 main p {
-    font-size: 20px;
-    text-indent: 20px;
-    line-height: 40px;
-}
-main h2{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 30px;
-}
-
-
-table{
+    font-size: 18px;
+    line-height: 35px;
+    text-indent: 30px;
     
-    width: 400px;
+}
+
+main h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption{
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+}
+
+table {
+    
+    color: white;
+    margin: auto;
     border-collapse: collapse;
     
+    
 }
 
-picture > img{
-    width: 100%;
-}
-th,td{
-    border: 2px solid black;
-    padding: 10px;
-}
-td.num{
-    text-align: right;
+td, th {
+    padding: 20px;
+    border: 1px  solid rgb(231, 231, 231);
 }
 
-
-div#container{
+div{
     overflow-x: auto;
 }
 
 footer{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 10px;
+    background-color: white
+    ;
+    padding: 1px;
+    text-align: center;
+    margin: 10px;
 }
-
-
-
-
 
