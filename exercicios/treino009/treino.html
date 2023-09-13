@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+</head>
+<body>
+
+    <h1>Formulários</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+
+
+        <p>
+            <label for="idata">defina uma data: </label>
+            <input type="date" name="data" id="idata" value="2023-02-01">
+        </p>
+
+        <p>
+            <label for="imes">Mês: </label>
+            <input type="month" name="mes" id="imes" value="2023-09">
+        </p>
+
+
+        
+        <fieldset>
+            <legend>profissão</legend>
+            
+                <label for="iprof">Professor</label>
+                <input type="checkbox" name="prof" id="iprof" checked>
+
+                <label for="idev">dev</label>
+                <input type="checkbox" name="dev" id="idev">
+
+
+                <label for="iadm">Admin</label>
+                <input type="checkbox" name="adm" id="iadm">
+
+                
+            
+        </fieldset>
+
+
+        <fieldset>
+
+<legend>sexo</legend>
+
+            <label for="sexo">Masculino</label>
+            <input type="radio" name="sexo" id="isexom" checked > 
+
+            <label for="isexof">feminino</label>
+            <input type="radio" name="sexo" id="isexof">
+
+        </fieldset>
+
+
+        <p>
+            <label for="iemail">Email: </label>
+            <input type="email" name="email" id="iemail" required>
+        </p>
+        
+        <p>
+            <label for="inome">Nome: </label> 
+            <input type="text" name="nome" id="inome" placeholder="Digite seu nome" autocomplete="name" required>
+        </p>
+
+        <p>
+            <label for="isenha">Senha: </label>
+            <input type="password" name="senha" id="isenha" placeholder="digite sua senha" minlength="5" maxlength="16" required>
+        </p>
+        
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+
+
+</body>
+</html>
