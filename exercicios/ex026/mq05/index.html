@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
 
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-icons" onclick="clickMenu()" >menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li> <a href="#">Opção 2</a></li>
@@ -27,16 +29,26 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quod voluptates porro placeat reiciendis earum harum praesentium iste ipsa, tempore a cum perferendis dolorem, deleniti, quasi recusandae! Illum, soluta modi.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis maxime ducimus recusandae nostrum quibusdam fugit necessitatibus id deserunt, totam autem corrupti eius. Fuga libero, suscipit inventore ex illo deserunt ea?
             </p>
-
+<br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium delectus illum ipsum doloremque cum dicta molestias illo, nihil quasi, facilis, necessitatibus error veritatis nemo esse quia mollitia sed debitis natus!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ex, blanditiis delectus voluptatibus, ea molestiae quis, atque fugiat minima sapiente ut architecto dolorum recusandae nam ad possimus deleniti exercitationem accusantium!
             </p>
-
+<br>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo porro, corrupti ratione provident rerum consectetur sequi aperiam nam numquam a vitae itaque recusandae earum tempora consequatur accusantium necessitatibus laboriosam architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia temporibus dolores magnam. Nisi obcaecati nulla sapiente excepturi possimus! Soluta non ab nostrum deleniti aut! Ipsum vel temporibus necessitatibus consequuntur nostrum!</p>
 
         </article>
 
     </main>
     
+    <script>
+        function clickMenu() {
+            if (itens.style.display =='block'){
+             itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+            
+        }
+    </script>
 </body>
 </html>
