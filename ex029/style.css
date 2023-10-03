@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+ul {
+    margin: 10;
+    padding: 10;
+    list-style-type: none;
+    width: 130px;
+}
+
+ul li {
+    position: relative;
+}
+
+li ul {
+    position: absolute;
+    left: 90px;
+    top: 0;
+    display: none;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: tomato;
+    background-color: wheat;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    background: #ccc;
+
+}
+
+li:hover ul {
+    display: block;
+}
