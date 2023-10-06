@@ -5,19 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obras</title>
     <style>
+
+
+        .container {
+            display: grid;
+        }
+
         header {
             grid-column-start: 1;
             grid-column-end: 12;
             background-color: brown;
         }
 
+            .menu {
+                grid-column-start: 6;
+                grid-column-end: 12;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .imagem_leo{
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+
+            .pricipal{
+                grid-column-start: 4;
+                grid-column-end: 12;
+                padding-left: 15px;
+                padding-right: 15px;
+                text-align: justify;
+            }
+
+            footer {
+                grid-column-start: 1;
+                grid-column-end: 12;
+                background-color: yellowgreen;
+                color: wheat;
+                text-align: center;
+            }
+
+            .card {
+                display: flex;
+                flex-flow: row wrap;
+            }
+
+            ul {
+                list-style-type: none;
+                color: brown;
+            }
+
+            li {
+                float: left;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a:hover {
+                background-color: aqua;
+                color: white;
+            }
+
+            .img {
+                border: 1px solid white;
+                border-radius: 5px;
+                padding: 0.8rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .img img {
+
+
+                width: 125px;
+                height: 115px;
+            }
+            
     </style>
 </head>
 <body>
     <header class="container">
         <h1>obras</h1>
     </header>
-    <nav class="container menu"></nav>
+    <nav class="container menu">
+        <ul>
+        <li><a href="#">Biografia</a></li>
+        <li><a href="#">Obras</a></li>
+        <li><a href="#">Curiosidades</a> </li>
+    </ul></nav>
     <div class="container wrapper">
         <aside class="imagem_leo">
             <img src="imagens/leonardo-da-vinci.png">
