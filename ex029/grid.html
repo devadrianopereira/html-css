@@ -1,9 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        
+      /*
+        PRIMEIRO EXEMPLO DE GRID.
+
+      .container {
+            display: grid;
+            grid-template-columns: 100px 100px 100px  ;
+            grid-template-rows: 100px 100px ;
+            gap: 10px;
+        }
+
+        .box {
+            border: 3px solid black;
+            font-size: 20px;
+            background-color: aqua;
+            padding: 10px;
+             
+          }  */
+            
+          
+          .container {
+            
+            display: grid;
+            grid-template-columns: 100px 50px 80px 200px;
+            grid-template-rows: 100px 100px 75px;
+            gap: 8px;
+          }
+        
+          
+
+        .box1 {
+            background-color: red;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-end: 3;
+            grid-row-start: 4;
+        }
+        .box2{
+            background-color: pink;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    </style>
 </head>
 <body>
 
@@ -11,14 +64,22 @@
 
 
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="box">1</div>
         <div class="box">2</div>
         <div class="box">3</div>
         <div class="box">4</div>
         <div class="box">5</div>
-        <div class="box">6</div>
+        <div class="box">6</div> 
+    -->
 
+
+
+    </div>
+
+    <div class="container">
+        <div class="box1">BOX 1</div>
+        <div class="box2">Box 2</div>
 
 
     </div>
