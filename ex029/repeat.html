@@ -3,64 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRID EM CSS</title>
+    <title>grid</title>
+    <style>
 
-    <style> 
-       
-       .container {
+        .container {
+            display: grid;
+            grid-template-columns: 150px 130px 103px 105px;
+            grid-template-rows:222px;
+        }
 
-        display: grid;
-        grid-template-columns: 200px 209px 240px 200px 200px;
-        
-      
+        .box{
+            
+            padding: 20px;
+            border: 3px solid black;
+        }
 
+        .box1 {
+            background-color: aqua;
+        }
 
-       }
+        .box2{
+            background-color: aquamarine;
+        }
+        .box3{
+            background-color: blue;
+        }
 
-
-        
-       .box {
-
-        width: 20%;
-        padding: 20px;
-        border: 6px solid black;
-       }
-
-       .box1 {
-        background-color: aqua;
-       grid-column-start: 1;
-       grid-column-end: 4;
-       
-
-
-       }
-       .box2 {
-        background-color: aquamarine;
-        grid-column-start: 5;
-        grid-column-end: 7;
-       }
-       
-       .box3 {
-        background-color: blue;
-       }
-       .box4 {
-        background-color: blueviolet;
-       }
-       .box5 {
-        background-color: cadetblue;
-       }
+        .box4{
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
+
+
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+    </div>
     
-        <div class="container">
-
-            <div class="box box1">BOX 1</div>
-            <div class=" box box2">BOX 2</div>
-            <div class=" box box3">box 3</div>
-            <div class=" box box4">box 4 </div>
-            <div class=" box box5">box 5</div>
-
-        </div>
 </body>
 </html>
